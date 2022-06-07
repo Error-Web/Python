@@ -4215,6 +4215,10 @@ input, select, textarea {
 	left: 80%;
 	}
 
+.pythonex{
+	background-color:#FFFFFF;
+	}
+	
 .pythonex .prin{
 	color:#0005FF;
 	}
