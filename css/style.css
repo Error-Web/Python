@@ -3474,7 +3474,7 @@ input, select, textarea {
 			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("https://github.com/Error-Web/error-web-html/blob/main/img/20220605_110305.png");;
 			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("https://github.com/Error-Web/error-web-html/blob/main/img/20220605_110305.png");;
 			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("https://github.com/Error-Web/error-web-html/blob/main/img/20220605_110305.png");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("https://github.com/Error-Web/error-web-html/blob/main/img/20220605_110305.pngq");;
+			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("https://github.com/Error-Web/error-web-html/blob/main/img/20220605_110305.png");;
 			content: '';
 			display: block;
 			height: 100%;
@@ -4115,6 +4115,106 @@ input, select, textarea {
 
 	}
 	
+.e4y-codespan{
+	color: #FF0006;
+	}
+	
+.spes_tagname {color:brown;}
+.spes_tag {color:mediumblue;}
+.spes_tagname {color:#ff9999;}
+.spes_tag {color:#88ccbb;}
+
+.table-tags{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-tags td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color: #000000;
+}
+
+.table-tags tr:nth-child(even) {
+  background-color: #dddddd;k
+  color: #000000;
+}
+
+.btn a{
+	position: relative;
+	background: #444444;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	letter-spacing: 0.1em;
+	padding: 10px 30px;
+	transition: 0.5s;
+	}
+	
+.btn a:hover{
+	letter-spacing: 0.25em;
+	background: var(--crl);
+	color: var(--crl);
+	box-shadow: 0 0 35px var(--crl);
+	}
+	
+.btn a::before{
+	content: ' ';
+	position: absolute;
+	inset: 2px;
+	background: #27282c;
+	}
+	
+.btn a span{
+	position: relative;
+	z-index: 1;
+	}
+	
+.btn a i{
+	position: absolute;
+	inset: 0;
+	display: block;
+	}
+	
+.btn a i::before{
+	content: ' ';
+	position: absolute;
+	top: -3.5px;
+	left: 80%;
+	width: 10px;
+	height: 5px;
+	border: 2px solid var(--crl);
+	background: #27282c;
+	transform: translatex(-50%);
+	transition: 0.5s;
+	}
+	
+.btn a:hover i::before{
+	width: 20px;
+	left: 20%;
+	}
+	
+.btn a i::after{
+	content: ' ';
+	position: absolute;
+	bottom: -3.5px;
+	left: 20%;
+	width: 10px;
+	height: 5px;
+	border: 2px solid var(--crl);
+	background: #27282c;
+	transform: translatex(-50%);
+	transition: 0.5s;
+	}
+	
+.btn a:hover i::after{
+	width: 20px;
+	left: 80%;
+	}
+
 .pythonex .prin{
 	color:#0005FF;
 	}
